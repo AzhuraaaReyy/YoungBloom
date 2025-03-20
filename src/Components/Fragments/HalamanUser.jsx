@@ -2,20 +2,13 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Button from "../Elements/Button";
 import { useForm } from "react-hook-form";
-import { useNavigate } from "react-router-dom";
+
 const HalamanUtama = () => {
-  const navigate = useNavigate();
   const {
-    register,
-    handleSubmit,
     formState: { isValid },
   } = useForm({
     mode: "onChange",
   });
-
-  const onSubmit = () => {
-    navigate("/dashboard"); // Ganti dengan halaman tujuan
-  };
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-black text-white px-4">
@@ -40,31 +33,27 @@ const HalamanUtama = () => {
         </p>
 
         {/* Tombol Register & Login */}
-        <form onSubmit={handleSubmit(onSubmit)}>
-          <div className="mt-10 space-y-4">
+        <div className="mt-10 space-y-6">
+          <NavLink to="/register">
             <Button
-              variant={`
-          ${
-            !isValid ? "bg-gray-05" : "bg-[#1e90ff] "
-          } w-full border border-green-500 bg-white text-green-500 py-2 rounded-md font-semibold hover:bg-green-600 hover:text-white transition"`}
-              type="submit"
-              disabled={!isValid ? "disabled" : ""}
+              variant=" w-full border border-green-500 bg-white text-green-500 py-3 rounded-md font-semibold transition hover:bg-green-500 hover:text-white"
+              
             >
               Register
             </Button>
+          </NavLink>
 
+          <NavLink to="/dashboard">
             <Button
-              variant={`
-          ${
-            !isValid ? "bg-gray-05" : " "
-          } w-full border border-white py-2 rounded-md font-semibold hover:bg-green-600 hover:text-white transition"`}
-              type="submit"
-              disabled={!isValid ? "disabled" : ""}
+              variant={
+                " w-full border border-white py-3 rounded-md font-semibold transition mt-4 hover:bg-green-500 hover:text-white hover:border-green-500"
+              }
+             
             >
               Log In
             </Button>
-          </div>
-        </form>
+          </NavLink>
+        </div>
       </div>
     </div>
   );
