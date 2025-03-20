@@ -27,7 +27,6 @@ const Login = () => {
                 type="email"
                 placeholder="hello@example.com"
                 name="email"
-                className="bg-black"
                 register={{
                   ...register("email", {
                     required: "Email Tidak Boleh Kosong!",
@@ -66,7 +65,10 @@ const Login = () => {
 
             {/* Lupa Password */}
             <div className="text-center mb-7">
-              <NavLink to="/forgot-password" className="text-green-400 text-sm underline">
+              <NavLink
+                to="/forgot-password"
+                className="text-green-400 text-sm underline"
+              >
                 Forgot password?
               </NavLink>
             </div>
@@ -75,7 +77,9 @@ const Login = () => {
             <Button
               variant={`
                 ${
-                  !isValid ? "bg-gray-05 text-[#58BC82] " : "bg-green-500 text-white"
+                  !isValid
+                    ? "bg-gray-05 text-[#58BC82] "
+                    : "bg-green-500 text-white"
                 } w-full  border border-green-500 rounded-[50px] "`}
               type="submit"
               className="w-full bg-green-500 text-white py-2 rounded-md font-semibold hover:bg-green-600 transition"
@@ -87,7 +91,7 @@ const Login = () => {
           {/* Link ke Sign Up */}
           <div className="text-center mt-8 text-sm">
             Don't have an account?{" "}
-            <NavLink to="/register" className="text-green-400">
+            <NavLink to="/register" className="text-green-400 underline">
               Sign up
             </NavLink>
           </div>
