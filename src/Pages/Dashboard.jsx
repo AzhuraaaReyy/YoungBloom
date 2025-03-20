@@ -1,10 +1,10 @@
 import MainLayout from "../Components/Layout/MainLayout";
-import Header from "../Components/Fragments/Header";
 
+import Posts from "../Components/Fragments/Postingan";
 const DashboardPage = () => {
   return (
     <MainLayout type="dashboard">
-      <Header />
+      <Posts />
     </MainLayout>
   );
 };

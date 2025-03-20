@@ -7,6 +7,7 @@ import DashboardPage from "./Pages/Dashboard";
 import HalamanUtama from "./Components/Fragments/HalamanUser";
 import Login from "./Components/Fragments/FormLogin";
 import Register from "./Components/Fragments/FormRegister";
+import Posts from "./Components/Fragments/Postingan";
 function App() {
   const myRouter = createBrowserRouter([
     {
@@ -24,6 +25,10 @@ function App() {
     {
       path: "/register",
       element: <Register />,
+    },
+    {
+      path: "/homepage",
+      element: <Posts />,
     },
   ]);
 
