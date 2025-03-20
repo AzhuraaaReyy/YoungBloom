@@ -1,15 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Button from "../Elements/Button";
-import { useForm } from "react-hook-form";
 
 const HalamanUtama = () => {
-  const {
-    formState: { isValid },
-  } = useForm({
-    mode: "onChange",
-  });
-
   return (
     <div className="flex items-center justify-center min-h-screen bg-black text-white px-4">
       <div className="w-full max-w-md text-center p-6">
@@ -35,10 +28,7 @@ const HalamanUtama = () => {
         {/* Tombol Register & Login */}
         <div className="mt-10 space-y-6">
           <NavLink to="/register">
-            <Button
-              variant=" w-full border border-green-500 bg-white text-green-500 py-3 rounded-md font-semibold transition hover:bg-green-500 hover:text-white"
-              
-            >
+            <Button variant=" w-full border border-green-500 bg-white text-green-500 py-3 rounded-md font-semibold transition hover:bg-green-500 hover:text-white">
               Register
             </Button>
           </NavLink>
@@ -48,7 +38,6 @@ const HalamanUtama = () => {
               variant={
                 " w-full border border-white py-3 rounded-md font-semibold transition mt-4 hover:bg-green-500 hover:text-white hover:border-green-500"
               }
-             
             >
               Log In
             </Button>
