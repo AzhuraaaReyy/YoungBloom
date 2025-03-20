@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 import DashboardPage from "./Pages/Dashboard";
 import HalamanUtama from "./Components/Fragments/HalamanUser";
+import Login from "./Components/Fragments/FormLogin";
 function App() {
   const myRouter = createBrowserRouter([
     {
@@ -14,6 +15,10 @@ function App() {
     {
       path: "/dashboard",
       element: <DashboardPage />,
+    },
+    {
+      path: "/login",
+      element: <Login />,
     },
   ]);
 

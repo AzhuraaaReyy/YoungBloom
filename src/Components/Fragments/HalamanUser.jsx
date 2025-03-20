@@ -33,7 +33,7 @@ const HalamanUtama = () => {
             </Button>
           </NavLink>
 
-          <NavLink to="/dashboard">
+          <NavLink to="/login">
             <Button
               variant={
                 " w-full border border-white py-3 rounded-md font-semibold transition mt-4 hover:bg-green-500 hover:text-white hover:border-green-500"
