@@ -8,6 +8,7 @@ import HalamanUtama from "./Components/Fragments/HalamanUser";
 import Login from "./Components/Fragments/FormLogin";
 import Register from "./Components/Fragments/FormRegister";
 import Posts from "./Components/Fragments/Postingan";
+import EditPosts from "./Components/Fragments/editPostingan";
 function App() {
   const myRouter = createBrowserRouter([
     {
@@ -29,6 +30,10 @@ function App() {
     {
       path: "/homepage",
       element: <Posts />,
+    },
+    {
+      path: "/edit",
+      element: <EditPosts />,
     },
   ]);
 

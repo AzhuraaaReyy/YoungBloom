@@ -6,7 +6,7 @@ const MainLayout = () => {
     <div className="">
       <Header />
       <Posts />
-      <ButtomNavbar/>
+     
     </div>
   );
 };

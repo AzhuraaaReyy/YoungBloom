@@ -16,14 +16,14 @@ const HalamanUtama = () => {
         </div>
 
         {/* Deskripsi */}
-        <p className="text-sm leading-relaxed opacity-80">
+        <h3 className="text-sm leading-relaxed opacity-80">
           "Young Bloom Studio" carries a deep and inspiring meaning. The word
           "Young" symbolizes energy, creativity, and a "fresh," youthful spirit.
           Meanwhile, the word "Bloom" represents the process of growth,
           development, and reaching one's full potential. Thus, the name "Young
           Bloom Studio" can be interpreted as a place where young creativity and
           innovation flourish and thrive.
-        </p>
+        </h3>
 
         {/* Tombol Register & Login */}
         <div className="mt-10 space-y-6">

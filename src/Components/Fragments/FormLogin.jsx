@@ -6,7 +6,6 @@ import { Link, useNavigate, NavLink } from "react-router-dom";
 const Login = () => {
   const navigate = useNavigate();
 
-  
   const {
     register,
     handleSubmit,
@@ -14,14 +13,11 @@ const Login = () => {
   } = useForm({
     mode: "onChange",
   });
-  
-  
+
   const onSubmit = () => {
     navigate("/dashboard");
   };
-  
-  
-  
+
   const onErrors = (errors) => console.error(errors);
   return (
     <div className="flex items-center justify-center min-h-screen bg-black text-white px-4">
