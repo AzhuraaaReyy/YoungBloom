@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import posts from "../../Data/posts";
 import { FaPlus } from "react-icons/fa";
 
@@ -25,19 +26,19 @@ const Posts = () => {
             </p>
             <div className="mt-4 flex flex-col items-start w-full">
               <div className="w-full my-2"></div>
-              <a
-                href="#"
+              <NavLink
+                to="/edit"
                 className="text-green-400 text-sm font-semibold text-left w-full"
               >
                 Lihat
-              </a>
+              </NavLink>
               <div className="w-[30%] border-t border-green-700 my-2"></div>
-              <a
-                href="/edit"
+              <NavLink
+                to="/edit"
                 className="text-green-400 text-sm font-semibold text-left w-full"
               >
                 Postingan
-              </a>
+              </NavLink>
             </div>
           </div>
         ))}
