@@ -85,8 +85,8 @@ const BottomIcon = () => (
         y2="22.9232"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.9" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.9" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint1_linear_1_108"
@@ -96,8 +96,8 @@ const BottomIcon = () => (
         y2="22.9232"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.9" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.9" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint2_linear_1_108"
@@ -107,8 +107,8 @@ const BottomIcon = () => (
         y2="22.9232"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.9" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.9" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint3_linear_1_108"
@@ -118,8 +118,8 @@ const BottomIcon = () => (
         y2="22.9232"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.9" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.9" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint4_linear_1_108"
@@ -129,8 +129,8 @@ const BottomIcon = () => (
         y2="22.9232"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.9" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.9" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint5_linear_1_108"
@@ -140,8 +140,8 @@ const BottomIcon = () => (
         y2="22.9232"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.9" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.9" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint6_linear_1_108"
@@ -151,8 +151,8 @@ const BottomIcon = () => (
         y2="22.9232"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.9" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.9" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint7_linear_1_108"
@@ -162,8 +162,8 @@ const BottomIcon = () => (
         y2="22.9232"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.9" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.9" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint8_linear_1_108"
@@ -173,8 +173,8 @@ const BottomIcon = () => (
         y2="22.9232"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.9" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.9" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint9_linear_1_108"
@@ -184,8 +184,8 @@ const BottomIcon = () => (
         y2="22.9232"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.9" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.9" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint10_linear_1_108"
@@ -195,8 +195,8 @@ const BottomIcon = () => (
         y2="22.9232"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.9" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.9" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint11_linear_1_108"
@@ -206,8 +206,8 @@ const BottomIcon = () => (
         y2="22.9232"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.9" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.9" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint12_linear_1_108"
@@ -217,8 +217,8 @@ const BottomIcon = () => (
         y2="22.9232"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.9" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.9" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint13_linear_1_108"
@@ -228,8 +228,8 @@ const BottomIcon = () => (
         y2="22.9232"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.9" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.9" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint14_linear_1_108"
@@ -239,8 +239,8 @@ const BottomIcon = () => (
         y2="22.9232"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.9" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.9" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
     </defs>
   </IconWrapper>
@@ -318,8 +318,8 @@ const ButtomUp = () => (
         y2="26.0773"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.9" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.9" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint1_linear_1_107"
@@ -329,8 +329,8 @@ const ButtomUp = () => (
         y2="26.0773"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.9" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.9" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint2_linear_1_107"
@@ -340,8 +340,8 @@ const ButtomUp = () => (
         y2="26.0773"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.9" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.9" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint3_linear_1_107"
@@ -351,8 +351,8 @@ const ButtomUp = () => (
         y2="26.0773"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.9" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.9" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint4_linear_1_107"
@@ -362,8 +362,8 @@ const ButtomUp = () => (
         y2="26.0773"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.9" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.9" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint5_linear_1_107"
@@ -373,8 +373,8 @@ const ButtomUp = () => (
         y2="26.0773"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.9" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.9" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint6_linear_1_107"
@@ -384,8 +384,8 @@ const ButtomUp = () => (
         y2="26.0773"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.9" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.9" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint7_linear_1_107"
@@ -395,8 +395,8 @@ const ButtomUp = () => (
         y2="26.0773"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.9" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.9" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint8_linear_1_107"
@@ -406,8 +406,8 @@ const ButtomUp = () => (
         y2="26.0773"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.9" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.9" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint9_linear_1_107"
@@ -417,8 +417,8 @@ const ButtomUp = () => (
         y2="26.0773"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.9" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.9" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint10_linear_1_107"
@@ -428,8 +428,8 @@ const ButtomUp = () => (
         y2="26.0773"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.9" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.9" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint11_linear_1_107"
@@ -439,8 +439,8 @@ const ButtomUp = () => (
         y2="26.0773"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.9" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.9" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint12_linear_1_107"
@@ -450,8 +450,8 @@ const ButtomUp = () => (
         y2="26.0773"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.9" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.9" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint13_linear_1_107"
@@ -461,8 +461,8 @@ const ButtomUp = () => (
         y2="26.0773"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.9" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.9" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="paint14_linear_1_107"
@@ -472,25 +472,25 @@ const ButtomUp = () => (
         y2="26.0773"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" stop-opacity="0.9" />
-        <stop offset="1" stop-color="white" stop-opacity="0" />
+        <stop stopColor="white" stopOpacity="0.9" />
+        <stop offset="1" stopColor="white" stopOpacity="0" />
       </linearGradient>
     </defs>
   </IconWrapper>
 );
 const arrowleft = () => (
-  <IconWrapper>
+  <svg>
     <circle cx="20" cy="20" r="20" fill="white" />
     <path
       d="M28.4854 20.75C28.8996 20.75 29.2354 20.4142 29.2354 20C29.2354 19.5858 28.8996 19.25 28.4854 19.25L28.4854 20.75ZM10.9845 19.4697C10.6916 19.7626 10.6916 20.2374 10.9845 20.5303L15.7574 25.3033C16.0503 25.5962 16.5252 25.5962 16.8181 25.3033C17.111 25.0104 17.111 24.5355 16.8181 24.2426L12.5754 20L16.8181 15.7574C17.111 15.4645 17.111 14.9896 16.8181 14.6967C16.5252 14.4038 16.0503 14.4038 15.7574 14.6967L10.9845 19.4697ZM28.4854 19.25L11.5148 19.25L11.5148 20.75L28.4854 20.75L28.4854 19.25Z"
       fill="black"
     />
-  </IconWrapper>
+  </svg>
 );
 export const Icon = {
   Buttom: BottomIcon,
   Up: ButtomUp,
-  arrow:arrowleft
+  arrow: arrowleft,
 };
 IconWrapper.propTypes = {
   children: PropTypes.node.isRequired,

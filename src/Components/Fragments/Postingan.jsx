@@ -34,7 +34,7 @@ const Posts = () => {
               </NavLink>
               <div className="w-[30%] border-t border-green-700 my-2"></div>
               <NavLink
-                to="/edit"
+                to={`/edit/${post.id}`}
                 className="text-green-400 text-sm font-semibold text-left w-full"
               >
                 Postingan
@@ -45,9 +45,11 @@ const Posts = () => {
       </div>
 
       {/* Floating Action Button */}
-      <button className="fixed bottom-10 right-10 bg-blue-600 text-white p-4 rounded-full shadow-lg">
-        <FaPlus size={20} />
-      </button>
+      <NavLink to="/tambah">
+        <button className="fixed bottom-10 right-10 bg-blue-600 text-white p-4 rounded-full shadow-lg">
+          <FaPlus size={20} />
+        </button>
+      </NavLink>
     </div>
   );
 };

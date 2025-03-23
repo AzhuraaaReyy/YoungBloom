@@ -9,6 +9,7 @@ import Login from "./Components/Fragments/FormLogin";
 import Register from "./Components/Fragments/FormRegister";
 import Posts from "./Components/Fragments/Postingan";
 import EditPosts from "./Components/Fragments/editPostingan";
+import TambahPostingan from "./Components/Fragments/tambahPostingan";
 function App() {
   const myRouter = createBrowserRouter([
     {
@@ -32,8 +33,12 @@ function App() {
       element: <Posts />,
     },
     {
-      path: "/edit",
+      path: "/edit/:id",
       element: <EditPosts />,
+    },
+    {
+      path: "/tambah",
+      element: <TambahPostingan />,
     },
   ]);
 
