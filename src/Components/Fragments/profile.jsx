@@ -14,7 +14,7 @@ const ProfilePage = () => {
       {/* Foto Profil */}
       <div className="mt-20"></div>
 
-      <div className="relative w-32 h-32 mt-5 mb-10">
+      <div className="relative w-32 h-32 mt-10 mb-10">
         <img
           src={image}
           alt="Profile"
