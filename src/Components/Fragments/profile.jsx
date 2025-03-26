@@ -2,7 +2,7 @@ import { useState } from "react";
 import Header from "./Header";
 
 const ProfilePage = () => {
-  const [image, setImage] = useState("/public/images/britop.png"); // Ganti dengan default gambar
+  const [image, setImage] = useState("/images/britop.png"); // Ganti dengan default gambar
   const [username, setUsername] = useState("paman san");
   const [email, setEmail] = useState("sanengineer@email.com");
 
