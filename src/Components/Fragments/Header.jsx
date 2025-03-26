@@ -10,7 +10,7 @@ const Header = () => {
   };
   return (
     <header>
-      <div className=" fixed top-0 left-0 w-full z-50 bg-black text-white p-8 flex justify-between pb-14">
+      <div className=" fixed top-0 left-0 w-full z-50 bg-black text-white p-8 flex justify-between pb-1">
         <div className="flex justify-between items-center relative  py-4">
           <div className="absolute left-10 top-4">
             <Icon.Buttom />
@@ -79,12 +79,13 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <a
-                  href="#contact"
-                  className="text-white text-lg hover:text-gray-400 p-5"
+                <NavLink
+                  to="/profile"
+                  className="text-white text-lg
+                  hover:text-gray-400 p-5"
                 >
                   Profile
-                </a>
+                </NavLink>
               </li>
             </ul>
           </nav>

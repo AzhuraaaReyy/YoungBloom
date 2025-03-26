@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import { Link, useNavigate, NavLink } from "react-router-dom";
 import LabeledInput from "../Elements/LabeledInput";
 import Button from "../Elements/Button";
+import { Icon } from "../Elements/Icon";
 const TambahPostingan = () => {
   const [gambar, setGambar] = useState(null);
 
@@ -29,7 +30,8 @@ const TambahPostingan = () => {
   return (
     <div className="min-h-screen bg-black text-white flex flex-col items-center py-10 px-4">
       {/* Header */}
-      <h1 className="text-3xl font-bold mb-10">Suntingan</h1>
+
+      <h1 className="text-3xl font-bold mb-10 mt-10">Suntingan</h1>
 
       {/* Form */}
       <form
@@ -43,7 +45,7 @@ const TambahPostingan = () => {
             placeholder="no file chosen"
             name="gambar"
             register={{
-              ...register("email", {
+              ...register("gambar", {
                 required: "Email Tidak Boleh Kosong!",
                 pattern: {
                   value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
@@ -52,9 +54,9 @@ const TambahPostingan = () => {
               }),
             }}
           />
-          {errors?.email && (
+          {errors?.gambar && (
             <div className="text-center text-red-500">
-              {errors.email.message}
+              {errors.gambar.message}
             </div>
           )}
         </div>
@@ -64,16 +66,16 @@ const TambahPostingan = () => {
             label="Judul"
             type="text"
             placeholder="Masukkan judul"
-            name="password"
+            name="judul"
             register={{
-              ...register("password", {
-                required: "Password harus diisi!",
+              ...register("judul", {
+                required: "Judul Tidak Boleh Kosong!",
               }),
             }}
           />
-          {errors?.password && (
+          {errors?.judul && (
             <div className="text-center text-red-500">
-              {errors.password.message}{" "}
+              {errors.judul.message}{" "}
             </div>
           )}
         </div>
@@ -82,28 +84,38 @@ const TambahPostingan = () => {
             label="Isi"
             type="textarea"
             placeholder="Masukkan judul"
-            name="password"
+            name="isi"
             register={{
-              ...register("password", {
-                required: "Password harus diisi!",
+              ...register("isi", {
+                required: "Isi Tidak Boleh Kosong!",
               }),
             }}
           />
-          {errors?.password && (
+          {errors?.isi && (
             <div className="text-center text-red-500">
-              {errors.password.message}{" "}
+              {errors.isi.message}{" "}
             </div>
           )}
         </div>
 
         {/* Tombol Login */}
         {/* Tombol Submit */}
-        <button
-          type="submit"
-          className="w-full bg-black text-green-500 font-semibold py-2 rounded-lg hover:bg-green-700 transition border border-green-500 hover:border-white hover:text-white"
-        >
-          SUBMIT
-        </button>
+        <div className="flex space-x-4">
+          <Button
+            variant="w-[100px] bg-black text-green-500 font-semibold py-2 rounded-lg hover:bg-green-700 transition border border-green-500 hover:border-green-500 hover:text-white"
+            type="submit"
+          >
+            SUBMIT
+          </Button>
+          <NavLink to="/dashboard">
+            <Button
+              variant="w-[100px] bg-black text-white font-semibold py-2 rounded-lg hover:bg-green-700 transition border border-white hover:border-green-500 hover:text-white"
+              type="submit"
+            >
+              Kembali
+            </Button>
+          </NavLink>
+        </div>
       </form>
     </div>
   );

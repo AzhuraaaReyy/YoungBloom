@@ -43,47 +43,47 @@ const EditPosts = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-black text-white">
+    <div className="min-h-screen flex flex-col bg-black text-white pb-10">
       <Header />
-      <div className="p-4  items-center  mt-40 ml-1">
-        <Link to="/dashboard" className="text-white">
+
+      <div className="p-4 bg-black flex flex-col items-center mt-40">
+        <Link to="/dashboard" className="absolute top-32 left-12 text-white">
           <Icon.arrow />
         </Link>
 
-        <div className="flex flex-col min-h-screen bg-black text-white items-center    ">
-          {/* Header */}
+        {/* Header */}
+        <div className="text-center text-4xl font-bold mt-7 mb-10">
+          Postingan
+        </div>
 
-          <header className="text-center py-4 text-5xl font-bold w-full mb-7  ">
-            Postingan
-          </header>
-
-          {/* Postingan */}
-          <div className="flex flex-col gap-6 px-4 w-full max-w-md">
-            <div key={post.id} className="pb-20">
-              {" "}
-              {/* Tambah padding bawah */}
-              <img
-                src={post.image}
-                alt={post.title}
-                className="w-80 rounded-lg object-cover mx-auto"
-              />
-              <p className="text-[18px] text-gray-300 text-left mt-12 ml-12 ">
-                {post.description}
-              </p>
-            </div>
+        {/* Postingan */}
+        <div className="flex flex-col gap-6 px-4 w-full max-w-lg bg-black">
+          <div key={post.id} className="pb-10 flex flex-col items-center">
+            <img
+              src={post.image}
+              alt={post.title}
+              className="w-80 rounded-lg object-cover"
+            />
+            <p className="text-[18px] text-gray-300 text-center mt-6">
+              {post.description}
+            </p>
           </div>
+        </div>
 
-          {/* Tombol Edit & Hapus */}
-          <div className="flex space-x-10 ">
-            <NavLink to="">
-              <button className="border-2 border-yellow-500 text-yellow-500 px-6 py-2 rounded-lg mr-10">
-                EDIT
-              </button>
-            </NavLink>
-            <button className="border-2 border-red-500 text-red-500 px-6 py-2 rounded-lg">
-              HAPUS
-            </button>
-          </div>
+        {/* Tombol Edit & Hapus */}
+        <div className="flex space-x-6 mt-6">
+          <button
+            //onClick={handleSave}
+            className="border-2 border-yellow-500 text-yellow-500 px-6 py-2 rounded-lg"
+          >
+            EDIT
+          </button>
+          <button
+            //onClick={handleDelete}
+            className="border-2 border-red-500 text-red-500 px-6 py-2 rounded-lg"
+          >
+            HAPUS
+          </button>
         </div>
       </div>
     </div>

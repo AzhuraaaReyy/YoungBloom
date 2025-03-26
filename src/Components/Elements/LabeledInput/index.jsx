@@ -1,7 +1,7 @@
 import Input from "./input";
 import Label from "./label";
 
-const LabeledInput = ({ label, name, type, placeholder, register }) => {
+const LabeledInput = ({ label, name, type, placeholder, register,variant="special"}) => {
   return (
     <>
       <Label htmlFor={name}>{label}</Label>
@@ -10,6 +10,7 @@ const LabeledInput = ({ label, name, type, placeholder, register }) => {
         name={name}
         placeholder={placeholder}
         register={register}
+        variants={variant}
       />
     </>
   );

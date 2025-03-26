@@ -4,9 +4,9 @@ import { FaPlus } from "react-icons/fa";
 
 const Posts = () => {
   return (
-    <div className="flex flex-col min-h-screen bg-black text-white items-center pb-24 mt-40">
+    <div className="flex flex-col min-h-screen bg-black text-white items-center pb-2 mt-10">
       {/* Header */}
-      <header className="text-center py-6 text-5xl font-bold w-full mb-3 mt-10">
+      <header className="text-center py-6 text-5xl font-bold w-full mb-3 mt-20">
         Gallery
       </header>
 
