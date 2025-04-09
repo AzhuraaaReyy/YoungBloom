@@ -74,7 +74,7 @@ const Login = () => {
             <div className="text-center mb-7">
               <NavLink
                 to="/forgot-password"
-                className="text-green-400 text-sm underline"
+                className="text-[#639F4E] text-sm underline"
               >
                 Forgot password?
               </NavLink>
@@ -86,22 +86,16 @@ const Login = () => {
                 ${
                   !isValid
                     ? "bg-gray-05 text-[#58BC82] "
-                    : "bg-green-500 text-white"
+                    : "bg-[#639F4E] text-white"
                 } w-full  border border-green-500 rounded-[50px] "`}
               type="submit"
-              className="w-full bg-green-500 text-white py-2 rounded-md font-semibold hover:bg-green-600 transition"
+              className="w-full bg-[#639F4E] text-white py-2 rounded-md font-semibold hover:bg-[#639F4E] transition"
             >
               Log in
             </Button>
           </form>
 
-          {/* Link ke Sign Up */}
-          <div className="text-center mt-8 text-sm">
-            Don't have an account?{" "}
-            <NavLink to="/register" className="text-green-400 underline">
-              Sign up
-            </NavLink>
-          </div>
+         
         </div>
       </div>
     </div>

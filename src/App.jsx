@@ -11,6 +11,8 @@ import Posts from "./Components/Fragments/Postingan";
 import EditPosts from "./Components/Fragments/editPostingan";
 import TambahPostingan from "./Components/Fragments/tambahPostingan";
 import ProfilePage from "./Components/Fragments/profile";
+import FormEdit from "./Components/Fragments/Formedit";
+import Posttt from "./Pages/Post";
 
 function App() {
   const myRouter = createBrowserRouter([
@@ -45,6 +47,14 @@ function App() {
     {
       path: "/profile",
       element: <ProfilePage />,
+    },
+    {
+      path: "/edit-form/:id",
+      element: <FormEdit />,
+    },
+    {
+      path: "/all",
+      element: <Posttt />,
     },
   ]);
 

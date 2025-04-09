@@ -7,7 +7,7 @@ const HalamanUtama = () => {
     <div className="flex items-center justify-center min-h-screen bg-black text-white px-4">
       <div className="w-full max-w-md text-center p-6">
         {/* Logo */}
-        <div className="mb-5">
+        <div className="mb-2">
           <img
             className="w-100 h-100 mx-auto rounded-full object-cover"
             src="images/Group9.png"
@@ -27,16 +27,10 @@ const HalamanUtama = () => {
 
         {/* Tombol Register & Login */}
         <div className="mt-10 space-y-6">
-          <NavLink to="/register">
-            <Button variant=" w-full border border-green-500 bg-white text-green-500 py-3 rounded-md font-semibold transition hover:bg-green-500 hover:text-white">
-              Register
-            </Button>
-          </NavLink>
-
           <NavLink to="/login">
             <Button
               variant={
-                " w-full border border-white py-3 rounded-md font-semibold transition mt-4 hover:bg-green-500 hover:text-white hover:border-green-500"
+                " w-full border border-white py-3 rounded-md font-semibold transition mt-4 hover:bg-[#639F4E] hover:text-white hover:border-[#639F4E]"
               }
             >
               Log In

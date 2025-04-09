@@ -73,14 +73,14 @@ const EditPosts = () => {
         {/* Tombol Edit & Hapus */}
         <div className="flex space-x-6 mt-6">
           <button
-            //onClick={handleSave}
-            className="border-2 border-yellow-500 text-yellow-500 px-6 py-2 rounded-lg"
+            onClick={() => navigate(`/edit-form/${id}`)}
+            className="border-2 border-[#639F4E] text-[#639F4E] px-6 py-2 rounded-lg hover:bg-[#639F4E] hover:text-white"
           >
             EDIT
           </button>
           <button
             //onClick={handleDelete}
-            className="border-2 border-red-500 text-red-500 px-6 py-2 rounded-lg"
+            className="border-2 border-red-500 text-red-500 px-6 py-2 rounded-lg hover:bg-red-500 hover:text-white"
           >
             HAPUS
           </button>

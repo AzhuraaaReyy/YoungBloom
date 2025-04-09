@@ -19,7 +19,7 @@ const Header = () => {
             <Icon.Up />
           </div>
           <h1 className="pb-2 absolute top-6">
-            <span className="text-primary">youngbloom</span>studio
+            <span className="text-[#639F4E]">youngbloom</span>studio
           </h1>
           <span className="mt-8">media creative</span>
         </div>
@@ -59,24 +59,26 @@ const Header = () => {
           <nav
             className={`absolute top-full left-0 w-full bg-black transition-all duration-300 shadow-lg drop-shadow-[0_4px_6px_rgba(226,232,240,0.1)] rounded-b-2xl   ${
               isOpen ? "block" : "hidden"
-            } lg:block lg:static lg:w-auto lg:bg-transparent`}
+            } lg:block   lg:static lg:w-auto lg:bg-transparent`}
           >
             <ul className="flex flex-col items-center space-y-4 p-4 lg:flex-row lg:space-y-0 lg:space-x-6 lg:p-0">
               <li>
-                <a
-                  href="#about"
-                  className="text-white text-lg hover:text-gray-400 p-5"
+                <NavLink
+                  to="/dashboard"
+                  className="text-white text-lg
+                  hover:text-gray-400 p-5"
                 >
                   Home
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="#gallery"
-                  className="text-white text-lg hover:text-gray-400 p-5"
+                <NavLink
+                  to="/all"
+                  className="text-white text-lg
+                  hover:text-gray-400 p-5"
                 >
                   Postingan
-                </a>
+                </NavLink>
               </li>
               <li>
                 <NavLink

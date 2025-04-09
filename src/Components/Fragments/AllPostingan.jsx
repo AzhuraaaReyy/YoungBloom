@@ -2,12 +2,12 @@ import { NavLink } from "react-router-dom";
 import posts from "../../Data/posts";
 import { FaPlus } from "react-icons/fa";
 
-const Posts = () => {
+const AllPost = () => {
   return (
     <div className="flex flex-col min-h-screen bg-black text-white items-center pb-2 mt-10">
       {/* Header */}
       <header className="text-center py-6 text-5xl font-bold w-full mb-3 mt-20">
-        Gallery
+        Postingan
       </header>
 
       {/* Postingan */}
@@ -24,33 +24,27 @@ const Posts = () => {
             <p className="text-[20px] text-gray-300 text-left mt-10">
               {post.description}
             </p>
-            <div className="mt-4 flex flex-col items-start w-full">
-              <div className="w-full my-2"></div>
+            <div className="mt-4 flex flex-row items-center justify-start w-full gap-4">
               <NavLink
-                to="/edit"
-                className="text-[#639F4E] text-sm font-semibold text-left w-full"
+                to={`/edit-form/${post.id}`}
+                className="text-[#639F4E] text-sm font-semibold underline"
               >
-                Lihat
+                Edit
               </NavLink>
-              <div className="w-[30%] border-t border-[#639F4E] my-2"></div>
+
+              <div className="h-4 border-l border-white"></div>
+
               <NavLink
-                to={`/edit/${post.id}`}
-                className="text-[#639F4E] text-sm font-semibold text-left w-full"
+                to={``}
+                className="text-red-600 text-sm font-semibold underline"
               >
-                Postingan
+                Hapus
               </NavLink>
             </div>
           </div>
         ))}
       </div>
-
-      {/* Floating Action Button */}
-      <NavLink to="/tambah">
-        <button className="fixed bottom-10 right-10 bg-blue-600 text-white p-4 rounded-full shadow-lg">
-          <FaPlus size={20} />
-        </button>
-      </NavLink>
     </div>
   );
 };
-export default Posts;
+export default AllPost;
