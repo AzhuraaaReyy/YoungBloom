@@ -11,6 +11,7 @@ import Posts from "./Components/Fragments/Postingan";
 import EditPosts from "./Components/Fragments/editPostingan";
 import TambahPostingan from "./Components/Fragments/tambahPostingan";
 import ProfilePage from "./Components/Fragments/profile";
+
 function App() {
   const myRouter = createBrowserRouter([
     {
